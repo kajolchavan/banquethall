@@ -299,11 +299,9 @@ const Index = ({gallery}) => {
                 <div className="content">
                   <div className="text">
                     <h4 className="title">Roka and Ring Ceremony</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
+                 
                   </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
+                 
                 </div>
               </div>
             </div>
@@ -317,11 +315,9 @@ const Index = ({gallery}) => {
                 <div className="content">
                   <div className="text">
                     <h4 className="title">Exhibitons</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
+                    
                   </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
+                 
                 </div>
               </div>
             </div>
@@ -849,7 +845,7 @@ const Index = ({gallery}) => {
 
         <div class="row  d-flex justify-content-between  pr-90 pl-90" >
         <div style={{position: "relative"}} className="col-lg-4 col-md-12 col-12 p-2">
-            <h2 style={{    backgroundColor: "#fff", display: "block", width: "120px", height: "120px", textAlign: "center", position: "inherit", borderRadius: "60px", zIndex: "1000", color: "#2f4d4b", font:'500 100px/85px "Playfair Display", serif', margin: "50px auto -60px"}}>1</h2>
+            <h2 style={{    backgroundColor: "#fff", display: "block", width: "120px", height: "120px", textAlign: "center", position: "inherit", borderRadius: "60px", color: "#2f4d4b", font:'500 100px/85px "Playfair Display", serif', margin: "50px auto -60px"}}>1</h2>
             <div> 
               <div style={{font:'500 19px "Cinzel", serif', width: "100%", minHeight: "180px",  display: "block",  margin: "0 auto",  textAlign: "center", backgroundColor: "#faf7f2", zIndex: "10", color: "#2f4d4b", padding: "80px 38px 20px", letterSpacing: "0"}}> 
                 SCHEDULE AN APPOINTMENT FOR A TOUR 
@@ -861,7 +857,7 @@ const Index = ({gallery}) => {
             
         </div>
         <div style={{position: "relative"}} class="col-lg-4 col-md-12 col-12 p-2">
-            <h2 style={{    backgroundColor: "#fff", display: "block", width: "120px", height: "120px",  textAlign: "center", position: "inherit", borderRadius: "60px", zIndex: "1000", color: "#2f4d4b",  font:'500 100px/85px "Playfair Display", serif', margin: "50px auto -60px"}}>2</h2>
+            <h2 style={{    backgroundColor: "#fff", display: "block", width: "120px", height: "120px",  textAlign: "center", position: "inherit", borderRadius: "60px", color: "#2f4d4b",  font:'500 100px/85px "Playfair Display", serif', margin: "50px auto -60px"}}>2</h2>
             <div> 
               <div style={{font:'500 19px "Cinzel", serif', width: "100%", minHeight: "180px",  display: "block",  margin: "0 auto",  textAlign: "center", backgroundColor: "#faf7f2", zIndex: "10", color: "#2f4d4b", padding: "80px 38px 20px", letterSpacing: "0"}}> 
                 CONTRACT SIGNING 
@@ -873,7 +869,7 @@ const Index = ({gallery}) => {
             
         </div>
         <div style={{position: "relative"}} class="col-lg-4 col-md-12 col-12 p-2">
-            <h2 style={{    backgroundColor: "#fff", display: "block", width: "120px", height: "120px", textAlign: "center", position: "inherit", borderRadius: "60px", zIndex: "1000", color: "#2f4d4b",  font:'500 100px/85px "Playfair Display", serif', margin: "50px auto -60px"}}>3</h2>
+            <h2 style={{    backgroundColor: "#fff", display: "block", width: "120px", height: "120px", textAlign: "center", position: "inherit", borderRadius: "60px", color: "#2f4d4b",  font:'500 100px/85px "Playfair Display", serif', margin: "50px auto -60px"}}>3</h2>
             <div> 
               <div style={{font:'500 19px "Cinzel", serif', width: "100%", minHeight: "180px",  display: "block",  margin: "0 auto",  textAlign: "center", backgroundColor: "#faf7f2", zIndex: "10", color: "#2f4d4b", padding: "80px 38px 20px", letterSpacing: "0"}}> 
                 DISCUSSING FINISHING TOUCHES

@@ -16,14 +16,17 @@ const DeskTopMenu = () => {
   const [searchModal, setSearchModal] = useState(false);
   return (
     <Fragment>
-     
+      <SearchModal
+        show={searchModal}
+        handleClose={() => setSearchModal(false)}
+      />
       <nav className="main-menu d-none d-xl-block">
         <ul>
          
         
          
           <li className="menu-item has-children">
-            <Link href="/#about">
+            <Link onClick={() => activeMenuSet("/#about")} href="/#about">
              About
               
             </Link>
@@ -38,7 +41,7 @@ const DeskTopMenu = () => {
           </li>
           <li className="menu-item has-children">
             <Link href="/#gallery">
-             Gallery
+             Service
               
             </Link>
            
@@ -69,36 +72,36 @@ const MobileMenu = () => {
          
         
          
-         <li className="menu-item has-children">
-           <Link href="/#about">
-            About
-             
-           </Link>
-          
-         </li>
-         <li className="menu-item has-children">
-           <Link href="/#service">
-            Service
-             
-           </Link>
-          
-         </li>
-         <li className="menu-item has-children">
-           <Link href="/#gallery">
-            Gallery
-             
-           </Link>
-          
-         </li>
-         <li className="menu-item has-children">
-           <Link href="/#enquiry">
-            Contact
-             
-           </Link>
-          
-         </li>
-        
-       </ul>
+          <li className="menu-item has-children">
+            <Link onClick={() => activeMenuSet("/#about")} href="/#about">
+             About
+              
+            </Link>
+           
+          </li>
+          <li className="menu-item has-children">
+            <Link href="/#service">
+             Service
+              
+            </Link>
+           
+          </li>
+          <li className="menu-item has-children">
+            <Link href="/#gallery">
+             Service
+              
+            </Link>
+           
+          </li>
+          <li className="menu-item has-children">
+            <Link href="/#enquiry">
+             Contact
+              
+            </Link>
+           
+          </li>
+         
+        </ul>
     </nav>
   );
 };
